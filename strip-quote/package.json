@@ -1,0 +1,20 @@
+{
+  "name": "strip-quote-function",
+  "version": "1.0.0",
+  "description": "Create a function to strip quote characters from a string exepts quotes that are part of the words.",
+  "main": "index.js",
+  "author": "Samuel Silva <samuelformal@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest",
+    "prettier": "prettier --write ./src/**/*.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
+}

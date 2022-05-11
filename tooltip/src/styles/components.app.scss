@@ -1,0 +1,15 @@
+@import './variables';
+
+.dc-app {
+  padding: 100px;
+  text-align: center;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+
+    &--container {
+      margin: 10px;
+    }
+  }
+}
